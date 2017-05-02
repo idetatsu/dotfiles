@@ -4,6 +4,7 @@
 alias subl='sublime_text . &'
 
 # cd commands
+alias ks='ls'
 alias cdd='cd $HOME/Documents'
 alias cdw='cd $HOME/Documents/Work'
 alias cdv='cd $HOME/Documents/Work/datavase'
