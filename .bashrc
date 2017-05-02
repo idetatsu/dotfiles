@@ -15,6 +15,7 @@ alias ls='ls --show-control-chars --color=auto'
 alias lsa='ls -a'
 
 # open jupyter notebooks and git sync commands
+alias jn='cdn && jupyter notebook'
 alias enjn='cdn && git pull origin master && jupyter notebook'
 alias exjn='echo "Commit message: " && read cm && cdn && git add . && git commit -m "$cm" && git push origin master'
 
