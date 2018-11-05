@@ -1,4 +1,5 @@
- commands at the start of an interactive session.
+#
+# commands at the start of an interactive session.
 #
 # Authors:
 #   Sorin Ionescu <sorin.ionescu@gmail.com>
@@ -11,14 +12,10 @@ fi
 
 # Customize to your needs...
 alias cdw="cd ~/Documents/work"
-alias cdn="cd ~/Documents/notes"
-alias jn="jupyter notebook"
 
 # Path
-# added by Anaconda3 4.4.0 installer
-export PATH="/home/theoroy/anaconda3/bin:$PATH"
 export XDG_CONFIG_HOME="~/.config"
 
 # Ctrl + Arrow
 bindkey "^[[1;5C" forward-word
-bindkey "^[[1;5D" backward-word<Paste>
+bindkey "^[[1;5D" backward-word
